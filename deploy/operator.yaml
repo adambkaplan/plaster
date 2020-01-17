@@ -15,8 +15,7 @@ spec:
       serviceAccountName: plaster
       containers:
         - name: plaster
-          # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: quay.io/adambkaplan/plaster-operator:v0.0.0-1
           command:
           - plaster
           imagePullPolicy: Always
