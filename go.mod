@@ -3,12 +3,50 @@ module github.com/adambkaplan/plaster
 go 1.13
 
 require (
-	github.com/operator-framework/operator-sdk v0.14.0
+	github.com/DATA-DOG/go-sqlmock v1.3.3 // indirect
+	github.com/NYTimes/gziphandler v1.0.1 // indirect
+	github.com/coreos/go-systemd v0.0.0-20190620071333-e64a0ec8b42a // indirect
+	github.com/coreos/prometheus-operator v0.34.0 // indirect
+	github.com/fatih/structtag v1.1.0 // indirect
+	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32 // indirect
+	github.com/go-logr/zapr v0.1.1 // indirect
+	github.com/gobuffalo/packr v1.30.1 // indirect
+	github.com/golang/mock v1.3.1 // indirect
+	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
+	github.com/gregjones/httpcache v0.0.0-20190203031600-7a902570cb17 // indirect
+	github.com/grpc-ecosystem/go-grpc-middleware v1.1.0 // indirect
+	github.com/grpc-ecosystem/grpc-gateway v1.9.4 // indirect
+	github.com/helm/helm-2to3 v0.2.0 // indirect
+	github.com/iancoleman/strcase v0.0.0-20190422225806-e506e3ef7365 // indirect
+	github.com/jmoiron/sqlx v1.2.0 // indirect
+	github.com/lib/pq v1.2.0 // indirect
+	github.com/markbates/inflect v1.0.4 // indirect
+	github.com/martinlindhe/base36 v1.0.0 // indirect
+	github.com/mattbaird/jsonpatch v0.0.0-20171005235357-81af80346b1a // indirect
+	github.com/maxbrunsfeld/counterfeiter/v6 v6.2.1 // indirect
+	github.com/mitchellh/hashstructure v1.0.0 // indirect
+	github.com/munnerz/goautoneg v0.0.0-20190414153302-2ae31c8b6b30 // indirect
+	github.com/openshift/api v0.0.0-20200116145750-0e2ff1e215dd
+	github.com/openshift/client-go v0.0.0-20190923180330-3b6373338c9b // indirect
+	github.com/operator-framework/operator-registry v1.5.3 // indirect
+	github.com/operator-framework/operator-sdk v0.8.2
+	github.com/rogpeppe/go-internal v1.5.0 // indirect
+	github.com/rubenv/sql-migrate v0.0.0-20191025130928-9355dd04f4b3 // indirect
+	github.com/sergi/go-diff v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5
-	k8s.io/api v0.0.0
-	k8s.io/apimachinery v0.0.0
+	github.com/spf13/viper v1.4.0 // indirect
+	github.com/ziutek/mymysql v1.5.4 // indirect
+	gonum.org/v1/gonum v0.0.0-20190710053202-4340aa3071a0 // indirect
+	gopkg.in/gorp.v1 v1.7.2 // indirect
+	helm.sh/helm/v3 v3.0.1 // indirect
+	k8s.io/api v0.17.1
+	k8s.io/apimachinery v0.17.1
 	k8s.io/client-go v12.0.0+incompatible
+	k8s.io/gengo v0.0.0-20191010091904-7fa3014cb28f // indirect
+	k8s.io/kube-state-metrics v1.7.2 // indirect
+	k8s.io/kubernetes v1.16.2 // indirect
 	sigs.k8s.io/controller-runtime v0.4.0
+	sigs.k8s.io/controller-tools v0.2.4 // indirect
 )
 
 // Pinned to kubernetes-1.16.2

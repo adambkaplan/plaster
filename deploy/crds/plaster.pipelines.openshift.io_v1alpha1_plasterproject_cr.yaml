@@ -1,0 +1,7 @@
+apiVersion: plaster.pipelines.openshift.io/v1alpha1
+kind: PlasterProject
+metadata:
+  name: example-plasterproject
+spec:
+  # Add fields here
+  size: 3
