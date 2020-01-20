@@ -3,5 +3,8 @@ kind: PlasterProject
 metadata:
   name: example-plasterproject
 spec:
-  # Add fields here
-  size: 3
+  source:
+    type: Git
+  build:
+    type: Language
+
